@@ -29,8 +29,7 @@ const defaultMenu = {
   body: '*│*⦁ %cmd %islimit %isPremium',
   footer: '*└────⦁*\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+©NdaaBotz
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -220,7 +219,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `©AlyaaXzy`.trim(),
+                        "description": `©NdaaBotz`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
                         "buttonText": "*Click Here*",
                         "listType": "SINGLE_SELECT",
